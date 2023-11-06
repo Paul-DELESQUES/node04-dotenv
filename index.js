@@ -5,7 +5,7 @@ const city = process.env.MY_CITY;
 const language = process.env.MY_LANGUAGE;
 
 if (!name || !city || !language) {
-  console.error("Merci de définir les variables MY_NAME, MY_CITY et MY_LANGUAGE dans le fichier '.env'");
+  console.error("Merci de définir les variables MY_NAME, MY_CITY et MY_LANGUAGE dans un fichier '.env'");
   process.exit(1);
 }
 
